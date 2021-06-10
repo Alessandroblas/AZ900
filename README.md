@@ -74,3 +74,6 @@ Use your existing data to forecast future behaviors based on these AI services. 
 
 DevOps brings together people, processes, and technology by automating software delivery to provide continuous value to your users.
 
+Here's a big-picture view of the available services and features in Azure.
+
+:::image type="content" source="img/azure-services.png" alt-text="Azure-services":::

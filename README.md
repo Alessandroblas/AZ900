@@ -80,7 +80,8 @@ Here's a big-picture view of the available services and features in Azure.
 Further details on Azure services [here](1_AzureServices.md).
 
 
-#### Check your knowledge
+<details>
+  <summary> Check your knowledge </summary>
 
 1. True or false: You need to purchase an Azure account before you can use any Azure resources.
 
@@ -104,7 +105,7 @@ _Cloud computing is the delivery of computing services over the internet, which 
 - Speech recognition and other cognitive services
 
 _The cloud offers a nearly limitless pool of raw compute, storage, and networking components to help you deliver innovative and novel user experiences quickly._
-
+</details>
 
 # Azure fundamental concepts
 
@@ -141,7 +142,8 @@ The following illustration demonstrates the services that might run in each of t
 
 ![Alt text](img/iaas-paas-saas.png "cloudmodels")
 
-#### Check your knowledge
+<details>
+  <summary> Check your knowledge </summary>
 
 1. Which of the following choices isn't a cloud computing category?
 
@@ -177,6 +179,7 @@ _A distributed cloud isn't a valid type of cloud computing._
 - **Geographic isolation**
 
 _You can choose to create resources in a single region; however, one of the primary advantages to cloud computing is geographic distribution._
+</details>
 
 ## Azure architectural concepts
 
@@ -243,7 +246,8 @@ You might want to create additional subscriptions for resource and billing manag
 - Each management group can have many children.
 - All subscriptions and management groups are within a single hierarchy in each directory.
 
-#### Check your knowledge
+<details>
+  <summary> Check your knowledge </summary>
 
 1. Which of the following can be used to manage governance across multiple Azure subscriptions?
 
@@ -276,8 +280,9 @@ You might want to create additional subscriptions for resource and billing manag
 - **An Azure subscription is a logical unit of Azure services.**
 
 *A subscription is a set of Azure services bundled together for tracking and billing purposes.*
+</details>
 
 # Core Azure services
 
-[Azure Compute services](2_ComputeServices.md)
-[Azure Networking services](2_NetworkingServices.md)
+- [Azure Compute services](2_ComputeServices.md)
+- [Azure Networking services](2_NetworkingServices.md)

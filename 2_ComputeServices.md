@@ -18,7 +18,9 @@ Azure compute provides on-demand pay-as-you-go compunting resources. Some of the
     - Simplified and performance management for remote desktop and application virtualization service
     - You can BYOL and save on compute costs
 
-#### Check your knowledge
+<details>
+  <summary> Check your knowledge </summary>
+
 1. Which Azure compute resource can be deployed to manage a set of identical virtual machines?
 
 **Virtual machine scale sets**
@@ -42,3 +44,4 @@ Azure App Service
 Azure Container Instances
 
 *Azure Virtual Desktop enables your team members to run Windows in the cloud, with access to the required applications for your company's needs.*
+</details>

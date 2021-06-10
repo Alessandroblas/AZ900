@@ -84,24 +84,24 @@ Further details on Azure services [here](1_AzureServices.md).
 
 1. True or false: You need to purchase an Azure account before you can use any Azure resources.
 
-False
-**True**
+- False
+- **True**
 
-_You can use a free Azure account or a Microsoft Learn sandbox to create resources._
+_You can use a free Azure account or a Microsoft Learn sandbox to create resource_
 
 2. What is meant by cloud computing?
 
-**Delivery of computing services over the internet.**
-Setting up your own datacenter.
-Using the internet
+- **Delivery of computing services over the internet.**
+-Setting up your own datacenter
+-Using the internet
 
 _Cloud computing is the delivery of computing services over the internet, which is otherwise known as the cloud_
 
 3. What is not a reason to move to the cloud?
 
-Faster innovation
-**A limited pool of services**
-Speech recognition and other cognitive services
+- Faster innovation
+- **A limited pool of services**
+- Speech recognition and other cognitive services
 
 _The cloud offers a nearly limitless pool of raw compute, storage, and networking components to help you deliver innovative and novel user experiences quickly._
 
@@ -145,36 +145,36 @@ The following illustration demonstrates the services that might run in each of t
 
 1. Which of the following choices isn't a cloud computing category?
 
-**Networking-as-a-Service (NaaS)**
-Platform-as-a-Service (PaaS)
-Infrastructure-as-a-Service (IaaS)
-Software-as-a-Service (SaaS)
+- **Networking-as-a-Service (NaaS)**
+- Platform-as-a-Service (PaaS)
+- Infrastructure-as-a-Service (IaaS)
+- Software-as-a-Service (SaaS)
 
 _NaaS isn't a cloud computing category._
 
 2. Which of the following statements is true?
 
-With Operating Expenses (OpEx), you are responsible for purchasing and maintaining your computing resources.
-**With Operating Expenses (OpEx), you are only responsible for the computing resources that you use.**
-With Capital Expenses (CapEx), you are only responsible for the computing resources that you use.
+- With Operating Expenses (OpEx), you are responsible for purchasing and maintaining your computing resources.
+- **With Operating Expenses (OpEx), you are only responsible for the computing resources that you use.**
+- With Capital Expenses (CapEx), you are only responsible for the computing resources that you use.
 
 _With Operating Expenses (OpEx), you are only responsible for the computing resources that you use._
 
 3. Which of the following options isn't a type of cloud computing?
 
-**Distributed cloud**
-Hybrid cloud
-Private cloud
-Public cloud
+- **Distributed cloud**
+- Hybrid cloud
+- Private cloud
+- Public cloud
 
 _A distributed cloud isn't a valid type of cloud computing._
 
 4. Which of the following choices isn't a benefit of using cloud services?
 
-Scalability
-Disaster recovery
-High availability
-**Geographic isolation**
+- Scalability
+- Disaster recovery
+- High availability
+- **Geographic isolation**
 
 _You can choose to create resources in a single region; however, one of the primary advantages to cloud computing is geographic distribution._
 
@@ -247,33 +247,33 @@ You might want to create additional subscriptions for resource and billing manag
 
 1. Which of the following can be used to manage governance across multiple Azure subscriptions?
 
-Azure initiatives
-**Management groups**
-Resource groups
+- Azure initiatives
+- **Management groups**
+- Resource groups
 
 *Management groups facilitate the hierarchical ordering of Azure resources into collections, at a level of scope above subscriptions. Distinct governance conditions can be applied to each management group, with Azure Policy and Azure role-based access controls, to manage Azure subscriptions effectively. The resources and subscriptions assigned to a management group automatically inherit the conditions applied to the management group.*
 
 2. Which of the following is a logical unit of Azure services that links to an Azure account?
 
-**Azure subscription**
-Management group
-Resource group
-Public cloud
+- **Azure subscription**
+- Management group
+- Resource group
+- Public cloud
 
 *An Azure subscription is a logical unit of Azure services that links to an Azure account.*
 
 3. Which of the following features doesn't apply to resource groups?
 
-Resources can be in only one resource group.
-Role-based access control can be applied to the resource group.
-**Resource groups can be nested.**
+- Resources can be in only one resource group.
+- Role-based access control can be applied to the resource group.
+- **Resource groups can be nested.**
 
 *It does not apply, as resource groups can't be nested.*
 
 4. Which of the following statements is a valid statement about an Azure subscription?
 
-Using Azure doesn't require a subscription.
-**An Azure subscription is a logical unit of Azure services.**
+- Using Azure doesn't require a subscription.
+- **An Azure subscription is a logical unit of Azure services.**
 
 *A subscription is a set of Azure services bundled together for tracking and billing purposes.*
 

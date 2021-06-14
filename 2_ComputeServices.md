@@ -23,25 +23,25 @@ Azure compute provides on-demand pay-as-you-go compunting resources. Some of the
 
 1. Which Azure compute resource can be deployed to manage a set of identical virtual machines?
 
-**Virtual machine scale sets**
-Virtual machine availability sets
-Virtual machine availability zones
+- **Virtual machine scale sets**
+- Virtual machine availability sets
+- Virtual machine availability zones
 
 *Virtual machine scale sets let you deploy and manage a set of identical virtual machines.*
 
 2. Which of the following services should be used when the primary concern is to perform work in response to an event (often via a REST command) that needs a response in a few seconds?
 
-**Azure Functions**
-Azure App Service
-Azure Container Instances
+- **Azure Functions**
+- Azure App Service
+- Azure Container Instances
 
 *Azure Functions is used when you need to perform work in response to an event (often via a REST request), timer, or message from another Azure service, and when that work can be completed quickly, within seconds or less.*
 
 3. Your company has a team of remote workers that need to use Windows-based software to develop your company's applications, but your team members are using various operating systems like MacOS, Linux, and Windows. Which Azure compute service would help resolve this scenario?
 
-Azure App Service
-**Windows Virtual Desktop**
-Azure Container Instances
+- Azure App Service
+- **Windows Virtual Desktop**
+- Azure Container Instances
 
 *Azure Virtual Desktop enables your team members to run Windows in the cloud, with access to the required applications for your company's needs.*
 </details>

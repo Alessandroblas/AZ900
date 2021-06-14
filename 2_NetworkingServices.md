@@ -54,6 +54,14 @@ To connect your DC to a VPN gateway, you'll need these on-prem resources:
 
 ## Azure ExpressRoute
 
-ExpressRoute lets you extend your on-premises networks into the Microsoft cloud over a private connection with the help of a connectivity provider. 
+[ExpressRoute](https://docs.microsoft.com/en-us/azure/expressroute/) lets you extend your on-premises networks into the Microsoft cloud over a private connection with the help of a connectivity provider. ExpressRoute uses the Border Gateway Protocol (BGP) routing protocol. BGP is used to exchange routes between on-premises networks and resources running in Azure. With ExpressRoute, your data doesn't travel over the public internet, so it's not exposed to the potential risks associated with internet communications.
 
-You can enable **ExpressRoute Global Reach** to exchange data across your on-premises sites by connecting your ExpressRoute circuits. With ExpressRoute Global Reach, you can connect your private datacenters through two ExpressRoute circuits. Your cross-datacenter traffic will travel through the Microsoft network.
+You can enable **ExpressRoute Global Reach** to exchange data across your on-premises sites by connecting your ExpressRoute circuits. With ExpressRoute Global Reach, you can connect your private datacenters through two ExpressRoute circuits. Your cross-datacenter traffic will travel through the Microsoft network. 
+
+ExpressRoute supports three models that you can use to connect your on-premises network to the Microsoft cloud:
+
+- CloudExchange colocation
+- Point-to-point Ethernet connection
+- Any-to-any connection
+
+Official docs [here](https://docs.microsoft.com/en-us/azure/networking/fundamentals/networking-overview).

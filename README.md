@@ -284,5 +284,7 @@ You might want to create additional subscriptions for resource and billing manag
 
 # Core Azure services
 
-- [Azure Compute services](2_ComputeServices.md)
-- [Azure Networking services](2_NetworkingServices.md)
+- [Azure Compute](2_ComputeServices.md)
+- [Azure Networking](2_NetworkingServices.md)
+- [Azure Storage](2_StorageServices.md)
+- [Azure database and analytics](2_db-analyticsServices.md)

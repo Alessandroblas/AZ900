@@ -288,3 +288,10 @@ You might want to create additional subscriptions for resource and billing manag
 - [Azure Networking](2_NetworkingServices.md)
 - [Azure Storage](2_StorageServices.md)
 - [Azure database and analytics](2_db-analyticsServices.md)
+
+# Core solutions and management tools
+
+- [Internet of Things](3_iot.md)
+- [Artificial Intelligence](3_AI.md)
+- [Serverless](3_serverless.md)
+- [DevOps, Management, monitoring Tools](3_tools.md)

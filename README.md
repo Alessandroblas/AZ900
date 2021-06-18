@@ -1,3 +1,9 @@
+# Who this course is for:
+
+Candidates *with non-technical* backgrounds who are interested in learning about the cloud. Candidates *with technical* backgrounds who are interested in getting more advanced certs in the future.
+
+Exam syllabus [here](exam-az-900-microsoft-azure-fundamentals-skills-measured.pdf)
+
 # What is Azure?
 
 Azure is a set of cloud services that help your organization meet your current and future business challenges. 
@@ -183,7 +189,7 @@ _You can choose to create resources in a single region; however, one of the prim
 
 ## Azure architectural concepts
 
-In this section we want to explain the following_
+In this section we want to explain the following concepts:
 
 - Azure subscriptions and management groups
 - Azure resources, resource groups, and Azure Resource Manager.
@@ -203,14 +209,15 @@ The following image shows the top-down hierarchy of organization:
 ### Azure regions, availability zones and region pairs
 
 Azure is made up of datacenters located around the globe, such datacenters aren't exposed to users directly. Instead, Azure organizes them into **regions**.
-Resources are therefore created in regions. Some services or VM features are only available in certain regions, such as specific VM sizes or storage types. There are also some global Azure services that don't require you to select a particular region, such as Azure Active Directory, Azure Traffic Manager, and Azure DNS. Azure has specialized regions that you might want to use when you build out your applications for compliance or legal purposes.
+Resources are therefore created in regions. Some services are only available in certain regions, such as specific VM sizes or storage types. There are also some global Azure services that don't require you to select a particular region, such as Azure Active Directory, Azure Traffic Manager, and Azure DNS.  Azure has specialized regions that you might want to use when you build out your applications for compliance or legal purposes.
 
 **Availability zones** ensure your services and data to be redundant so you can protect your information in case of failure. Availability zones are physically separate datacenters within an Azure region. Note that not every region has support for availability zones. You can use AZs to run mission-critical services but keep in mind that there could be a cost to duplicating your services and transferring data between zones.
 
-Moreover, each Azure region is always **paired** with another region within the same geography (such as US, Europe, or Asia) at least 300 miles away. This approach allows for the replication of resources (such as VM storage) across a geography that helps reduce the likelihood of interruptions because of events such as natural disasters, civil unrest, power outages, or physical network outages that affect both regions at once. If a region in a pair was affected by a natural disaster, for instance, services would automatically failover to the other region in its region pair.
+Moreover, each Azure region is always **paired** with another region **within the same geography** (such as US, Europe, or Asia) at least 300 miles away. This approach allows for the replication of resources (such as VM storage) across a geography that helps reduce the likelihood of interruptions because of events such as natural disasters, civil unrest, power outages, or physical network outages that affect both regions at once. If a region in a pair was affected by a natural disaster, for instance, services would automatically failover to the other region in its region pair.
 
 Additional advantages of **region pairs**:
 
+- Data connection between region pairs is the highest speed available.
 - If an extensive Azure outage occurs, one region out of every pair is prioritized to make sure at least one is restored as quickly as possible for applications hosted in that region pair.
 - Planned Azure updates are rolled out to paired regions one region at a time to minimize downtime and risk of application outage.
 - Data continues to reside within the same geography as its pair (except for Brazil South) for tax- and law-enforcement jurisdiction purposes.

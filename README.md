@@ -1,16 +1,17 @@
-# Who this course is for:
+# Who this course is for
 
 Candidates *with non-technical* backgrounds who are interested in learning about the cloud. Candidates *with technical* backgrounds who are interested in getting more advanced certs in the future.
 
 Exam syllabus [here](exam-az-900-microsoft-azure-fundamentals-skills-measured.pdf)
 
-# What is Azure?
+## What is Azure?
 
-Azure is a set of cloud services that help your organization meet your current and future business challenges. 
+Azure is a set of cloud services that help your organization meet your current and future business challenges.
 It offers everything you need to  build, manage, and deploy applications on a massive global network.
 
 Azure main pillars:
-- Continuous innovation 
+
+- Continuous innovation
 - You choose
 - Hybrid cloud
 - Trust
@@ -21,8 +22,8 @@ Azure use virtualization on a massive scale to abstract physical resources to th
 
 ### What is the Azure Portal?
 
-The [Azure portal](https://portal.azure.com/) is a console that provides an alternative to the command-line tools. 
-Through the portal you can: 
+The [Azure portal](https://portal.azure.com/) is a console that provides an alternative to the command-line tools.
+Through the portal you can
 
 - Build, manage and monitor your resources
 - Create dashboard for custom views of resources
@@ -31,14 +32,13 @@ Through the portal you can:
 The Azure portal is designed for resiliency, continuous availability and improvement; it mantains a presence in every Azure DC.
 
 ### What is the Azure Marketplace?
+
 [Azure Marketplace](https://azuremarketplace.microsoft.com/)  connects users with Microsoft partners, independent software vendors, and startups that are offering their solutions and services, which are optimized to run on Azure. All solutions and services are certified to run on Azure.
 
-
-# Azure services
+## Azure services
 
 Azure has such an extensive array
-of services and features. we can divide them into 10 main categories: 
-
+of services and features. we can divide them into 10 main categories:
 
 - Compute
 
@@ -46,7 +46,7 @@ These cloud services let you scale your computing capability on demand while onl
 
 - Networking
 
-These features let you connect your cloud and on-premise infrastructure in order to bring the best possible experience to your customers. 
+These features let you connect your cloud and on-premise infrastructure in order to bring the best possible experience to your customers.
 
 - Storage
 
@@ -58,7 +58,7 @@ With the mobile services, you can build and deploy cross-platform and native app
 
 - Databases
 
-Choose from a variety of proprietary and open source database engines to bring and manage your databases to the cloud. 
+Choose from a variety of proprietary and open source database engines to bring and manage your databases to the cloud.
 
 - Web
 
@@ -85,9 +85,10 @@ Here's a big-picture view of the available services and features in Azure.
 ![Alt text](img/azure-services.png "azuresvcs")
 Further details on Azure services [here](1_AzureServices.md).
 
-
 <details>
-  <summary> Check your knowledge </summary>
+  <summary>
+     Check your knowledge
+  </summary>
 
 1. True or false: You need to purchase an Azure account before you can use any Azure resources.
 
@@ -113,21 +114,23 @@ _Cloud computing is the delivery of computing services over the internet, which 
 _The cloud offers a nearly limitless pool of raw compute, storage, and networking components to help you deliver innovative and novel user experiences quickly._
 </details>
 
-# Azure fundamental concepts
+## Azure fundamental concepts
 
 There are three different cloud models: public, private, and hybrid cloud.
 
 | Deployment model | Description |  |
 | - | - | - |
-| Public cloud | Services are offered over the public internet and available to anyone who wants to purchase them. Cloud resources, such as servers and storage, are owned and operated by a third-party cloud service provider, and delivered over the internet. | No capital expenditures to scale up. Applications can be quickly provisioned and deprovisioned. Organizations pay only for what they use. 
-| Private cloud | A private cloud consists of computing resources used exclusively by users from one business or organization. A private cloud can be physically located at your organization's on-site (on-premises) datacenter, or it can be hosted by a third-party service provider. | Hardware must be purchased for start-up and maintenance. Organizations have complete control over resources and security. Organizations are responsible for hardware maintenance and updates. 
+| Public cloud | Services are offered over the public internet and available to anyone who wants to purchase them. Cloud resources, such as servers and storage, are owned and operated by a third-party cloud service provider, and delivered over the internet. | No capital expenditures to scale up. Applications can be quickly provisioned and deprovisioned. Organizations pay only for what they use.
+| Private cloud | A private cloud consists of computing resources used exclusively by users from one business or organization. A private cloud can be physically located at your organization's on-site (on-premises) datacenter, or it can be hosted by a third-party service provider. | Hardware must be purchased for start-up and maintenance. Organizations have complete control over resources and security. Organizations are responsible for hardware maintenance and updates.
 | Hybrid cloud | A hybrid cloud is a computing environment that combines a public cloud and a private cloud by allowing data and applications to be shared between them. | Provides the most flexibility. Organizations determine where to run their applications. Organizations control security, compliance, or legal requirements.
 
-## Cloud computing advantages
+### Cloud computing advantages
+
 There are several advantages that a cloud environment has over a physical environment:
+
 - High availability
 - Scalability
-- Elasticity 
+- Elasticity
 - Agility
 - Geo-distribution
 - Disaster recovery
@@ -149,7 +152,9 @@ The following illustration demonstrates the services that might run in each of t
 ![Alt text](img/iaas-paas-saas.png "cloudmodels")
 
 <details>
-  <summary> Check your knowledge </summary>
+  <summary>
+    Check your knowledge
+  </summary>
 
 1. Which of the following choices isn't a cloud computing category?
 
@@ -224,7 +229,8 @@ Additional advantages of **region pairs**:
 
 ### Azure resources and Azure Resource Manager
 
-A **resource** consists in a manageable item that's available through Azure. Virtual machines (VMs), storage accounts, web apps, databases, and virtual networks are examples of resources. **Resource groups** is a logical container for resources deployed on Azure. Resources groups can help in: 
+A **resource** consists in a manageable item that's available through Azure. Virtual machines (VMs), storage accounts, web apps, databases, and virtual networks are examples of resources. **Resource groups** is a logical container for resources deployed on Azure. Resources groups can help in:
+
 - Logical grouping
 - Resource life cycle
 - Authorization
@@ -232,6 +238,7 @@ A **resource** consists in a manageable item that's available through Azure. Vir
 Further details about AZs [here](https://docs.microsoft.com/en-us/azure/availability-zones/az-overview)
 
 **Azure Resource Manager** ([ARM](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/)) provides a management layer that enables you to create, update, and delete resources in your account. With Resource Manager, you can:
+
 - Manage your infrastructure through declarative templates rather than scripts. A Resource Manager template is a JSON file that defines what you want to deploy to Azure.
 - Deploy, manage, and monitor all the resources for your solution as a group, rather than handling these resources individually.
 - Redeploy your solution throughout the development life cycle and have confidence your resources are deployed in a consistent state.
@@ -241,12 +248,14 @@ Further details about AZs [here](https://docs.microsoft.com/en-us/azure/availabi
 - Clarify your organization's billing by viewing costs for a group of resources that share the same tag.
 
 A **subscription** provides you with authenticated and authorized access to Azure products and services. It also allows you to provision resources. An account can have one subscription or multiple subscriptions that have different billing models and to which you apply different access-management policies. There are two types of subscription boundaries that you can use:
+
 - billing boundary
 - access control boundary
 
 You might want to create additional subscriptions for resource and billing management purposes or subscription limits. If you have multiple subscriptions, you can organize them into **invoice sections**.
 
  Azure **management groups** provide a level of scope above subscriptions. You organize subscriptions into containers called management groups and apply your governance conditions to the management groups. Important facts about management groups:
+
 - 10,000 management groups can be supported in a single directory.
 - A management group tree can support up to six levels of depth. This limit doesn't include the root level or the subscription level.
 - Each management group and subscription can support only one parent.
@@ -254,7 +263,9 @@ You might want to create additional subscriptions for resource and billing manag
 - All subscriptions and management groups are within a single hierarchy in each directory.
 
 <details>
-  <summary> Check your knowledge </summary>
+  <summary> 
+    Check your knowledge
+ </summary>
 
 1. Which of the following can be used to manage governance across multiple Azure subscriptions?
 
@@ -289,38 +300,53 @@ You might want to create additional subscriptions for resource and billing manag
 *A subscription is a set of Azure services bundled together for tracking and billing purposes.*
 </details>
 
-## Core Azure services
+### Core Azure services
 
 - [Azure Compute](2_ComputeServices.md)
 - [Azure Networking](2_NetworkingServices.md)
 - [Azure Storage](2_StorageServices.md)
 - [Azure database and analytics](2_db-analyticsServices.md)
 
-## Core solutions and management tools
+### Core solutions and management tools
 
 - [Internet of Things](3_iot.md)
 - [Artificial Intelligence](3_AI.md)
 - [Serverless](3_serverless.md)
 - [DevOps, Management, monitoring Tools](3_tools.md)
 
-# Security
+## Security
+
+Azure applyes **security in depth** paradigm to protect your services and resources.
+
+That means every layer is protected, for instance:
+
+- data - virtual network endpoint
+- Application - API Management
+- Compute - limite Remote Desktop access, Windows update
+- Network - DDoS, Fiewalls
+- Identity & access - Azure AD
+- Physical - Door locks and key cards
+
+You've got multiple points to check and secure your applications.
+
+![Alt text](img/secindepth.png "hierarchy")
 
 Many Azure services include built-in security features. **Azure Security Center** is a monitoring service that provides visibility of your *security posture* across all of your services, both on Azure and on-premises. The term security posture refers to cybersecurity policies and controls, as well as how well you can predict, prevent, and respond to security threats.
 
-**Secure score** is a measurement of an organization's security posture; it helps you to: 
+**Secure score** is a measurement of an organization's security posture; it helps you to:
+
 - Report on the current state of your organization's security posture.
 - Improve your security posture by providing discoverability, visibility, guidance, and control.
 - Compare with benchmarks and establish key performance indicators (KPIs).
 
 **Azure Sentinel** is Microsoft's cloud-based SIEM system. It uses intelligent security analytics and threat analysis. It enables you to:
 
-- Collect cloud data at scale and [connect different data sources](https://docs.microsoft.com/en-us/azure/sentinel/connect-data-sources)
+- Collect cloud data at scale and [connect different data sources and logs](https://docs.microsoft.com/en-us/azure/sentinel/connect-data-sources)
 - Detect previously undetected threats
 - Investigate threats with artificial intelligence
 - Respond to incidents rapidly
 
-
-**Azure Key Vault** enables you to store application's secrets in a central location. It provides secure access to sensitive information by providing access control and logging capabilities. It can help you to: 
+**Azure Key Vault** enables you to store application's secrets in a central location. It provides secure access to sensitive information by providing access control and logging capabilities. It can help you to:
 
 - Manage secret, eg: tokens, passwords, API Keys, etc.
 - Manage encryption keys
@@ -329,14 +355,17 @@ Many Azure services include built-in security features. **Azure Security Center*
 
 ## Network Security
 
-**Azure Firewall** is a managed, cloud-based network security service that helps protect resources in your Azure virtual networks. Azure Firewall is a stateful firewall. A stateful firewall analyzes the complete context of a network connection, not just an individual packet of network traffic. Azure Firewall features high availability and unrestricted cloud scalability. The service is integrated with Azure Monitor to enable logging and analytics.
+**Azure Firewall** is a managed, cloud-based, intelligent network security service that helps protect resources in your Azure virtual networks. Azure Firewall is a stateful firewall.
 
-A **Network security group** enables you to filter network traffic to and from Azure resources within an Azure virtual network. You can think of NSGs like an internal firewall. An NSG can contain multiple inbound and outbound security rules that enable you to filter traffic to and from resources by source and destination IP address, port, and protocol.
+A stateful firewall analyzes the complete context of a network connection, not just an individual packet of network traffic. Azure Firewall features high availability and unrestricted cloud scalability. The service is integrated with Azure Monitor to enable logging and analytics.
+
+A **Network security group (NSG)** enables you to filter network traffic to and from Azure resources within an Azure virtual network. You can think of NSGs like an internal firewall. An NSG can contain multiple inbound and outbound security rules that enable you to filter traffic to and from resources by source and destination IP address, port, and protocol.
 
 <details>
     <summary>
 Check your knowledge
     </summary>
+
 1. An attacker can bring down your website by sending a large volume of network traffic to your servers. Which Azure service can help Tailwind Traders protect its App Service instance from this kind of attack?
 
 - Azure Firewall
@@ -362,20 +391,42 @@ Check your knowledge
 *A network security group rule enables you to filter traffic to and from resources by source and destination IP address, port, and protocol.*
 </details>
 
-## Identity & Privacy
+## Identity, Privacy, Governance
 
-For on-premises environments, Active Directory running on Windows Server provides an identity and access management service that's managed by your own organization. **Azure AD** is Microsoft's cloud-based identity and access management service. With Azure AD, you control the identity accounts, but Microsoft ensures that the service is available globally. Addiotionally Azure AD can detect sign-in attempts from unexpected locations or unknown devices.
+### Authentication
+
+For on-premises environments, Active Directory running on Windows Server provides an identity and access management service that's managed by your own organization.
+
+**Azure Active Directory (AD)** is Microsoft's cloud-based identity and access management service. With Azure AD, you control the identity accounts, but Microsoft ensures that the service is available globally. Addiotionally Azure AD can detect sign-in attempts from unexpected locations or unknown devices.
 
 A *tenant* is a representation of an organization. A tenant is typically separated from other tenants and has its own identity.
 
 Azure AD helps users access both external and internal resources:
+
 - *External resources* might include Microsoft Office 365, the Azure portal, and thousands of other software as a service (SaaS) applications
 - *Internal resources* might include apps on your corporate network and intranet, along with any cloud applications developed within your organization.
- 
+
 **Azure AD Connect** synchronizes user identities between on-premises Active Directory and Azure AD. Azure AD Connect synchronizes changes between both identity systems, so you can use features like SSO, multifactor authentication, and self-service password reset under both systems. Self-service password reset prevents users from using known compromised passwords.
 
 **Azure AD Multi-Factor Authentication** is a Microsoft service that provides multifactor authentication capabilities. Azure AD Multi-Factor Authentication enables users to choose an additional form of authentication during sign-in.
 
-**Conditional Access** lets you to to allow (or deny) access to resources based on identity signals. Conditional Access also provides a more granular multifactor authentication experience for users. Conditional Access collects signals from the user, makes decisions based on those signals, and then enforces that decision by allowing or denying the access request or challenging for a multifactor authentication response. 
+**Conditional Access** lets you to to allow (or deny) access to resources based on identity signals. Conditional Access also provides a more granular multifactor authentication experience for users. Conditional Access collects signals from the user, makes decisions based on those signals, and then enforces that decision by allowing or denying the access request or challenging for a multifactor authentication response.
 
-It requires Azure AD Premium P1 or P2 license or a MS 365 Business Premium license. 
+It requires Azure AD Premium P1 or P2 license or a MS 365 Business Premium license.
+
+### Governance
+
+The concept of governance is basically a body or a group of people who govern or set the rules or policies across a larger group of people. Azure allows you to go in there and programmatically configured these rules. So when we were talking in the first section of this course about subscriptions and management groups, that is one form of governance.
+
+And so this is what for purpose of the **Azure policy** tool, we can also look at this in the context of compliance.
+
+Azure Policy lets you to create your own custom policies or you can use a set of built-in policies, eg.:
+
+- Allowed services SKUs
+- Allowd locations
+- Apply tag and its default value
+- Not allowed resource type
+
+Another governance related feature is Azure **Blueprint**. Blueprints are basically a set of templates that you can create that contain users in roles and policies. Every time you create a new subscription you can use one of them.
+
+## Pricing

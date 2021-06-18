@@ -282,16 +282,93 @@ You might want to create additional subscriptions for resource and billing manag
 *A subscription is a set of Azure services bundled together for tracking and billing purposes.*
 </details>
 
-# Core Azure services
+## Core Azure services
 
 - [Azure Compute](2_ComputeServices.md)
 - [Azure Networking](2_NetworkingServices.md)
 - [Azure Storage](2_StorageServices.md)
 - [Azure database and analytics](2_db-analyticsServices.md)
 
-# Core solutions and management tools
+## Core solutions and management tools
 
 - [Internet of Things](3_iot.md)
 - [Artificial Intelligence](3_AI.md)
 - [Serverless](3_serverless.md)
 - [DevOps, Management, monitoring Tools](3_tools.md)
+
+# Security
+
+Many Azure services include built-in security features. **Azure Security Center** is a monitoring service that provides visibility of your *security posture* across all of your services, both on Azure and on-premises. The term security posture refers to cybersecurity policies and controls, as well as how well you can predict, prevent, and respond to security threats.
+
+**Secure score** is a measurement of an organization's security posture; it helps you to: 
+- Report on the current state of your organization's security posture.
+- Improve your security posture by providing discoverability, visibility, guidance, and control.
+- Compare with benchmarks and establish key performance indicators (KPIs).
+
+**Azure Sentinel** is Microsoft's cloud-based SIEM system. It uses intelligent security analytics and threat analysis. It enables you to:
+
+- Collect cloud data at scale and [connect different data sources](https://docs.microsoft.com/en-us/azure/sentinel/connect-data-sources)
+- Detect previously undetected threats
+- Investigate threats with artificial intelligence
+- Respond to incidents rapidly
+
+
+**Azure Key Vault** enables you to store application's secrets in a central location. It provides secure access to sensitive information by providing access control and logging capabilities. It can help you to: 
+
+- Manage secret, eg: tokens, passwords, API Keys, etc.
+- Manage encryption keys
+- Manage SSL/TLS certificates for both clound and on-prem resources
+- Store secrets backed by HSMs
+
+## Network Security
+
+**Azure Firewall** is a managed, cloud-based network security service that helps protect resources in your Azure virtual networks. Azure Firewall is a stateful firewall. A stateful firewall analyzes the complete context of a network connection, not just an individual packet of network traffic. Azure Firewall features high availability and unrestricted cloud scalability. The service is integrated with Azure Monitor to enable logging and analytics.
+
+A **Network security group** enables you to filter network traffic to and from Azure resources within an Azure virtual network. You can think of NSGs like an internal firewall. An NSG can contain multiple inbound and outbound security rules that enable you to filter traffic to and from resources by source and destination IP address, port, and protocol.
+
+<details>
+    <summary>
+Check your knowledge
+    </summary>
+1. An attacker can bring down your website by sending a large volume of network traffic to your servers. Which Azure service can help Tailwind Traders protect its App Service instance from this kind of attack?
+
+- Azure Firewall
+- Network security groups
+- **Azure DDoS Protection**
+
+*DDoS Protection helps protect your Azure resources from DDoS attacks. A DDoS attack attempts to overwhelm and exhaust an application's resources, making the application slow or unresponsive to legitimate users.*
+
+2. What's the best way for Tailwind Traders to limit all outbound traffic from VMs to known hosts?
+
+- Configure Azure DDoS Protection to limit network access to trusted ports and hosts.
+- **Create application rules in Azure Firewall.**
+- Ensure that all running applications communicate with only trusted ports and hosts.
+
+*Azure Firewall enables you to limit outbound HTTP/S traffic to a specified list of fully qualified domain names (FQDNs).*
+
+3. How can Tailwind Traders most easily implement a deny by default policy so that VMs can't connect to each other?
+
+- Allocate each VM on its own virtual network.
+- **Create a network security group rule that prevents access from another VM on the same network.**
+- Configure Azure DDoS Protection to limit network access within the virtual network.
+
+*A network security group rule enables you to filter traffic to and from resources by source and destination IP address, port, and protocol.*
+</details>
+
+## Identity & Privacy
+
+For on-premises environments, Active Directory running on Windows Server provides an identity and access management service that's managed by your own organization. **Azure AD** is Microsoft's cloud-based identity and access management service. With Azure AD, you control the identity accounts, but Microsoft ensures that the service is available globally. Addiotionally Azure AD can detect sign-in attempts from unexpected locations or unknown devices.
+
+A *tenant* is a representation of an organization. A tenant is typically separated from other tenants and has its own identity.
+
+Azure AD helps users access both external and internal resources:
+- *External resources* might include Microsoft Office 365, the Azure portal, and thousands of other software as a service (SaaS) applications
+- *Internal resources* might include apps on your corporate network and intranet, along with any cloud applications developed within your organization.
+ 
+**Azure AD Connect** synchronizes user identities between on-premises Active Directory and Azure AD. Azure AD Connect synchronizes changes between both identity systems, so you can use features like SSO, multifactor authentication, and self-service password reset under both systems. Self-service password reset prevents users from using known compromised passwords.
+
+**Azure AD Multi-Factor Authentication** is a Microsoft service that provides multifactor authentication capabilities. Azure AD Multi-Factor Authentication enables users to choose an additional form of authentication during sign-in.
+
+**Conditional Access** lets you to to allow (or deny) access to resources based on identity signals. Conditional Access also provides a more granular multifactor authentication experience for users. Conditional Access collects signals from the user, makes decisions based on those signals, and then enforces that decision by allowing or denying the access request or challenging for a multifactor authentication response. 
+
+It requires Azure AD Premium P1 or P2 license or a MS 365 Business Premium license. 

@@ -4,7 +4,7 @@ Azure database services are globally distributed and supports many of the indust
 
 ## Azure Cosmos DB
 
-Azure Cosmos DB is a globally distributed, multi-model database service. You can elastically and independently scale throughput and storage across any number of Azure regions worldwide. Azure Cosmos DB provides comprehensive service level agreements for throughput, latency, availability, and consistency guarantees. 
+Azure Cosmos DB is a globally distributed, multi-model database service. You can elastically and independently scale throughput and storage across any number of Azure regions worldwide. Azure Cosmos DB provides comprehensive service level agreements for throughput, latency, availability, and consistency guarantees.
 
 Azure Cosmos DB supports **schema-less** data, which lets you build highly responsive and "Always On" applications to support constantly changing data. Azure Cosmos DB stores data in atom-record-sequence (ARS) format.
 
@@ -14,7 +14,7 @@ Azure offers different SQL databases to let you choose the best which fits your 
 
 ### Azure SQL Database
 
-Azure SQL Database is a PaaS relational database based on the latest stable version of the Microsoft SQL Server database engine. SQL Database is a high-performance, reliable, fully managed, and secure database. SQL Database is a fully managed service that has built-in high availability, backups, and other common maintenance operations. Microsoft handles all updates to the SQL and operating system code. 
+Azure SQL Database is a PaaS relational database based on the latest stable version of the Microsoft SQL Server database engine. SQL Database is a high-performance, reliable, fully managed, and secure database. SQL Database is a fully managed service that has built-in high availability, backups, and other common maintenance operations. Microsoft handles all updates to the SQL and operating system code.
 
 You can **migrate** your existing (on-prem or cloud) SQL Server databases with minimal downtime by using the Azure Database Migration Service. The Microsoft Data Migration Assistant can generate assessment reports that provide recommendations to help guide you through required changes prior to performing a migration. After you assess and resolve any remediation required, you're ready to begin the migration process. The Azure Database Migration Service performs all of the required steps. You just change the connection string in your apps.
 

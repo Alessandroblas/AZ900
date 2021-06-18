@@ -1,17 +1,17 @@
 # Azure Networking services
 
-We'll take a look at several of the core networking resources that are available in Azure. 
+We'll take a look at several of the core networking resources that are available in Azure.
 
-**Azure virtual networking** is a set of resources that links other resources. It provides the following capabilities: 
+**Azure virtual networking** is a set of resources that links other resources. It provides the following capabilities:
 
 - Internet communications
-    - A VM can connect to the internet by default. You can enable incoming traffic from the internet by defining a public IP address or a public load balancer.
+  - A VM can connect to the internet by default. You can enable incoming traffic from the internet by defining a public IP address or a public load balancer.
 - Communicate between cloud and on-prem resources
-    - You can connect different resources using virtual networks or service endpoints
-    - You can connect Azure resources to on-prem data center leveraging: 
-        - Point-to-site VPN
-        - Site-to-site VPN
-        - Azure ExpressRoute: best approach for environments requiring greater bandwidth and higher level of security.
+  - You can connect different resources using virtual networks or service endpoints
+  - You can connect Azure resources to on-prem data center leveraging:
+    - Point-to-site VPN
+    - Site-to-site VPN
+    - Azure ExpressRoute: best approach for environments requiring greater bandwidth and higher level of security.
 - Route (Route tables and BGP) and filter (Network security groups and virtual appliances) traffic
 - Connect different networks - peering
 
@@ -41,7 +41,8 @@ You'll need these Azure resources before you can deploy an operational VPN gatew
 - Virtual network gateway
 - Connection
 
-To connect your DC to a VPN gateway, you'll need these on-prem resources: 
+To connect your DC to a VPN gateway, you'll need these on-prem resources:
+
 - A VPN device that support policy/route-based VPN gateways
 - A public-facing IPv4 address
 
@@ -56,7 +57,7 @@ To connect your DC to a VPN gateway, you'll need these on-prem resources:
 
 [ExpressRoute](https://docs.microsoft.com/en-us/azure/expressroute/) lets you extend your on-premises networks into the Microsoft cloud over a private connection with the help of a connectivity provider. ExpressRoute uses the Border Gateway Protocol (BGP) routing protocol. BGP is used to exchange routes between on-premises networks and resources running in Azure. With ExpressRoute, your data doesn't travel over the public internet, so it's not exposed to the potential risks associated with internet communications.
 
-You can enable **ExpressRoute Global Reach** to exchange data across your on-premises sites by connecting your ExpressRoute circuits. With ExpressRoute Global Reach, you can connect your private datacenters through two ExpressRoute circuits. Your cross-datacenter traffic will travel through the Microsoft network. 
+You can enable **ExpressRoute Global Reach** to exchange data across your on-premises sites by connecting your ExpressRoute circuits. With ExpressRoute Global Reach, you can connect your private datacenters through two ExpressRoute circuits. Your cross-datacenter traffic will travel through the Microsoft network.
 
 ExpressRoute supports three models that you can use to connect your on-premises network to the Microsoft cloud:
 

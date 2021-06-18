@@ -2,13 +2,13 @@
 
 IoT enables devices to gather and then relay information for data analysis. Smart devices are equipped with sensors that collect data.
 
-**Azure IoT Hub** is a managed service that acts as a central message hub for bi-directional communication between your IoT application and the devices it manages. You can connect virtually any device to your IoT hub. The IoT Hub service supports communications both from the device to the cloud and from the cloud to the device. It also supports multiple messaging patterns, such as *device-to-cloud* telemetry, file upload from devices, and request-reply methods to control your devices from the cloud. After an IoT hub receives messages from a device, it can route that message to other Azure services. From a *cloud-to-device* perspective, IoT Hub allows for command and control. That is, you can have either manual or automated remote control of connected devices, so you can instruct the device to open valves, set target temperatures, restart stuck devices, and so on. 
+**Azure IoT Hub** is a managed service that acts as a central message hub for bi-directional communication between your IoT application and the devices it manages. You can connect virtually any device to your IoT hub. The IoT Hub service supports communications both from the device to the cloud and from the cloud to the device. It also supports multiple messaging patterns, such as *device-to-cloud* telemetry, file upload from devices, and request-reply methods to control your devices from the cloud. After an IoT hub receives messages from a device, it can route that message to other Azure services. From a *cloud-to-device* perspective, IoT Hub allows for command and control. That is, you can have either manual or automated remote control of connected devices, so you can instruct the device to open valves, set target temperatures, restart stuck devices, and so on.
 
 **IoT Hub monitoring** helps you maintain the health of your solution by tracking events such as device creation, device failures, and device connections.
 
-**Azure IoT Central** builds on top of IoT Hub by adding a dashboard that allows you to connect, monitor, and manage your IoT devices. The visual user interface (UI) makes it easy to quickly connect new devices and watch as they begin sending telemetry or error messages. 
+**Azure IoT Central** builds on top of IoT Hub by adding a dashboard that allows you to connect, monitor, and manage your IoT devices. The visual user interface (UI) makes it easy to quickly connect new devices and watch as they begin sending telemetry or error messages.
 
-**Azure Sphere** creates an end-to-end, highly secure IoT solution for customers that encompasses everything from the hardware and operating system on the device to the secure method of sending messages from the device to the message hub. 
+**Azure Sphere** creates an end-to-end, highly secure IoT solution for customers that encompasses everything from the hardware and operating system on the device to the secure method of sending messages from the device to the message hub.
 
 <details>
   <summary> Check your knowledge </summary>

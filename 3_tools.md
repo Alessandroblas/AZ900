@@ -63,7 +63,7 @@ There are two macro-categories of management tools: **visual** and **code-based*
 
 ### The Azure portal and Azure Modile app
 
-A user interface, you can access virtually every feature of Azure. The Azure portal provides a friendly, graphical UI to view all the services you're using, create new services, configure your services, and view reports. 
+A user interface, you can access virtually every feature of Azure. The Azure portal provides a friendly, graphical UI to view all the services you're using, create new services, configure your services, and view reports.
 
 ### Azure PowerShell and Azure CLI
 
@@ -120,7 +120,6 @@ Azure Advisor evaluates your Azure resources and makes recommendations to help i
 - Performance: Used to improve the speed of your applications.
 - Cost: Used to optimize and reduce your overall Azure spending.
 - Operational Excellence: Used to help you achieve process and workflow efficiency, resource manageability, and deployment best practices.
-
 
 ### Azure Monitor
 

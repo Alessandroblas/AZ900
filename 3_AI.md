@@ -1,8 +1,8 @@
 # Artificial Intelligence
 
-Microsoft Azure provides several AI solutions 
+Microsoft Azure provides several AI solutions
 
-## Azure Machine Learning 
+## Azure Machine Learning
 
 Azure Machinen Learning is a platform for making predictions. It consists of tools and services that allow you to connect to data to train and test models to find one that will most accurately predict a future result. After you've run experiments to test the model, you can deploy and use it in real time via a web API endpoint. AML requires your own data to train eand evalute model.
 
@@ -13,7 +13,6 @@ Azure Machinen Learning is a platform for making predictions. It consists of too
 ## Azure Bot Service
 
 Azure Bot Service and Bot Framework are platforms for creating virtual agents that understand and reply to human questions. Behind the scenes, the bot you build uses other Azure services, such as Azure Cognitive Services.
-
 
 <details>
   <summary> Check your knowledge </summary>

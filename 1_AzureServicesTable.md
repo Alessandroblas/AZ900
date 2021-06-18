@@ -1,7 +1,9 @@
+# Azure Services Table
+
 | Service Type | Service name | Service function |
 | ------------ | ------------ | --------------- |
-| Compute | Azure Virtual Machines | Windows or Linux virtual machines (VMs) hosted in Azure. 
-| Compute | Azure Virtual Machine Scale Sets | Scaling for Windows or Linux VMs hosted in Azure. 
+| Compute | Azure Virtual Machines | Windows or Linux virtual machines (VMs) hosted in Azure.
+| Compute | Azure Virtual Machine Scale Sets | Scaling for Windows or Linux VMs hosted in Azure.
 | Compute | Azure Kubernetes Service |  Cluster management for VMs that run containerized services.
 | Compute | Azure Service Fabric | Distributed systems platform that runs in Azure or on-premises.
 | Compute | Azure Batch | Managed service for parallel and high-performance computing applications.

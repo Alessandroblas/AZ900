@@ -151,8 +151,8 @@ The following illustration demonstrates the services that might run in each of t
 
 ![Alt text](img/iaas-paas-saas.png "cloudmodels")
 
-<details>
-  <summary>
+    <details>
+      <summary>
     Check your knowledge
   </summary>
 
@@ -262,9 +262,11 @@ You might want to create additional subscriptions for resource and billing manag
 - Each management group can have many children.
 - All subscriptions and management groups are within a single hierarchy in each directory.
 
-<details>
-  <summary> 
-    Check your knowledge
+    <details>
+      <summary> 
+
+Check your knowledge
+
  </summary>
 
 1. Which of the following can be used to manage governance across multiple Azure subscriptions?
@@ -362,7 +364,7 @@ A stateful firewall analyzes the complete context of a network connection, not j
 A **Network security group (NSG)** enables you to filter network traffic to and from Azure resources within an Azure virtual network. You can think of NSGs like an internal firewall. An NSG can contain multiple inbound and outbound security rules that enable you to filter traffic to and from resources by source and destination IP address, port, and protocol.
 
 <details>
-    <summary>
+<summary>
 Check your knowledge
     </summary>
 

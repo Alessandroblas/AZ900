@@ -213,12 +213,12 @@ The following image shows the top-down hierarchy of organization:
 
 ### Azure regions, availability zones and region pairs
 
-Azure is made up of datacenters located around the globe, such datacenters aren't exposed to users directly. Instead, Azure organizes them into **regions**.
+Azure is made up of [datacenters located around the globe](https://azure.microsoft.com/en-us/global-infrastructure/geographies/#overview), such datacenters aren't exposed to users directly. Instead, Azure organizes them into **regions**.
 Resources are therefore created in regions. Some services are only available in certain regions, such as specific VM sizes or storage types. There are also some global Azure services that don't require you to select a particular region, such as Azure Active Directory, Azure Traffic Manager, and Azure DNS.  Azure has specialized regions that you might want to use when you build out your applications for compliance or legal purposes.
 
-**Availability zones** ensure your services and data to be redundant so you can protect your information in case of failure. Availability zones are physically separate datacenters within an Azure region. Note that not every region has support for availability zones. You can use AZs to run mission-critical services but keep in mind that there could be a cost to duplicating your services and transferring data between zones.
+**Availability zones** ensure your services and data to be redundant so you can protect your information in case of failure. Availability zones are physically separate datacenters within an Azure region. Note that not every region has support for availability zones. You can use AZs to run mission-critical services but keep in mind that there could be a cost to duplicating your services and transferring data between zones. For further details on this topics check official documentation [here](https://docs.microsoft.com/en-us/azure/availability-zones/az-overview).
 
-Moreover, each Azure region is always **paired** with another region **within the same geography** (such as US, Europe, or Asia) at least 300 miles away. This approach allows for the replication of resources (such as VM storage) across a geography that helps reduce the likelihood of interruptions because of events such as natural disasters, civil unrest, power outages, or physical network outages that affect both regions at once. If a region in a pair was affected by a natural disaster, for instance, services would automatically failover to the other region in its region pair.
+Moreover, each Azure region is always **[paired](https://docs.microsoft.com/en-us/azure/best-practices-availability-paired-regions)** with another region **within the same geography** (such as US, Europe, or Asia) at least 300 miles away. This approach allows for the replication of resources (such as VM storage) across a geography that helps reduce the likelihood of interruptions because of events such as natural disasters, civil unrest, power outages, or physical network outages that affect both regions at once. If a region in a pair was affected by a natural disaster, for instance, services would automatically failover to the other region in its region pair.
 
 Additional advantages of **region pairs**:
 
@@ -229,7 +229,9 @@ Additional advantages of **region pairs**:
 
 ### Azure resources and Azure Resource Manager
 
-A **resource** consists in a manageable item that's available through Azure. Virtual machines (VMs), storage accounts, web apps, databases, and virtual networks are examples of resources. **Resource groups** is a logical container for resources deployed on Azure. Resources groups can help in:
+A **resource** consists in a manageable item that's available through Azure. Virtual machines (VMs), storage accounts, web apps, databases, and virtual networks are examples of resources.
+
+**Resource groups** is a logical container for resources deployed on Azure. Resources groups can help in:
 
 - Logical grouping
 - Resource life cycle

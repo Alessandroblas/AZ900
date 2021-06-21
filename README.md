@@ -38,7 +38,7 @@ The Azure portal is designed for resiliency, continuous availability and improve
 ## Azure services
 
 Azure has such an extensive array
-of services and features. we can divide them into 10 main categories:
+of services and features. we can divide them into **10 main categories**:
 
 - Compute
 
@@ -151,8 +151,8 @@ The following illustration demonstrates the services that might run in each of t
 
 ![Alt text](img/iaas-paas-saas.png "cloudmodels")
 
-    <details>
-      <summary>
+<details>
+  <summary>
     Check your knowledge
   </summary>
 
@@ -264,11 +264,9 @@ You might want to create additional subscriptions for resource and billing manag
 - Each management group can have many children.
 - All subscriptions and management groups are within a single hierarchy in each directory.
 
-    <details>
-      <summary> 
-
-Check your knowledge
-
+<details>
+  <summary> 
+    Check your knowledge
  </summary>
 
 1. Which of the following can be used to manage governance across multiple Azure subscriptions?
@@ -320,7 +318,7 @@ Check your knowledge
 
 ## Security
 
-Azure applyes **security in depth** paradigm to protect your services and resources.
+Azure applies **security in depth** paradigm to protect your services and resources.
 
 That means every layer is protected, for instance:
 

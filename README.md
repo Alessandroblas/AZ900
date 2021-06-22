@@ -83,7 +83,7 @@ DevOps brings together people, processes, and technology by automating software 
 Here's a big-picture view of the available services and features in Azure.
 
 ![Alt text](img/azure-services.png "azuresvcs")
-Further details on Azure services [here](1_AzureServices.md).
+Further details on Azure services [here](AzureServices/1_AzureServices.md).
 
 <details>
   <summary>
@@ -305,16 +305,16 @@ You might want to create additional subscriptions for resource and billing manag
 ### Core Azure services
 
 - [Azure Compute](AzureServices/2_ComputeServices.md)
-- [Azure Networking](2_NetworkingServices.md)
-- [Azure Storage](2_StorageServices.md)
-- [Azure database and analytics](2_db-analyticsServices.md)
+- [Azure Networking](AzureServices/2_NetworkingServices.md)
+- [Azure Storage](AzureServices/2_StorageServices.md)
+- [Azure database and analytics](AzureServices/2_db-analyticsServices.md)
 
 ### Core solutions and management tools
 
-- [Internet of Things](3_iot.md)
-- [Artificial Intelligence](3_AI.md)
-- [Serverless](3_serverless.md)
-- [DevOps, Management, monitoring Tools](3_tools.md)
+- [Internet of Things](AzureServices/3_iot.md)
+- [Artificial Intelligence](AzureServices/3_AI.md)
+- [Serverless](AzureServices/3_serverless.md)
+- [DevOps, Management, monitoring Tools](AzureServices/3_tools.md)
 
 ## Security
 

@@ -1,12 +1,4 @@
-# Who this course is for
-
-Candidates *with non-technical* backgrounds who are interested in learning about the cloud. Candidates *with technical* backgrounds who are interested in getting more advanced certs in the future.
-
-Measured exams skills and syllabus [here](AZ900-Exam_Skills_Measured.pdf).
-
-Exams sample questions [here](https://www.examtopics.com/exams/microsoft/az-900/).
-
-## What is Azure?
+# What is Azure?
 
 Azure is a set of cloud services that help your organization meet your current and future business challenges.
 It offers everything you need to  build, manage, and deploy applications on a massive global network.

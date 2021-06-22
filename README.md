@@ -2,7 +2,7 @@
 
 Candidates *with non-technical* backgrounds who are interested in learning about the cloud. Candidates *with technical* backgrounds who are interested in getting more advanced certs in the future.
 
-ExARMsyllabus [here](exam-az-900-microsoft-azure-fundamentals-skills-measured.pdf)
+Exams skills measured and syllabus [here](AZ900-Exam_Skills_Measured.pdf).
 
 ## What is Azure?
 

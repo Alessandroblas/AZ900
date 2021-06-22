@@ -77,7 +77,7 @@ DevOps brings together people, processes, and technology by automating software 
 Here's a big-picture view of the available services and features in Azure.
 
 ![Alt text](img/azure-services.png "azuresvcs")
-Further details on Azure services [here](AzureServices/1_AzureServices.md).
+Further details on Azure services [here](AzureServices/1_AzureServicesTable.md).
 
 <details>
   <summary>

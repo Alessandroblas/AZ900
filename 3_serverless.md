@@ -24,7 +24,6 @@ It is priced based on the number of executions and on the type of connectors tha
 - Azure Logic Apps
 
 *Azure Functions is the correct choice because you can use existing Java code with minimal modification.*
-
 2. You want to orchestrate a workflow by using APIs from several well-known services. Which is the best option for this scenario?
 
 - Azure Functions

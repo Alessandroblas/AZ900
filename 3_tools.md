@@ -1,4 +1,4 @@
-# Management tools
+# Azure tools
 
 We'll focus on the Microsoft tools that can help accomplish some of the **DevOps** objectives and manage Azure services.
 
@@ -14,7 +14,7 @@ Azure DevOps Services is a suite of services that address every stage of the sof
 
 Azure DevOps is more focused on enterprise development, with heavier project-management and planning tools, and finer-grained access control.
 
-## GitHub and GitHub Actions
+### GitHub and GitHub Actions
 
 **GitHub** is a code decentralized source-code management tool to provide services for documentation, coordinating work, reporting and issue management, and more.
 
@@ -22,7 +22,7 @@ Azure DevOps is more focused on enterprise development, with heavier project-man
 
 GitHub is a lighter-weight tool than Azure DevOps, with a focus on individual developers contributing to the open-source code.
 
-## Azure DevTest Labs
+### Azure DevTest Labs
 
 Azure DevTest Labs provides an automated means of managing the process of building, setting up, and tearing down with services which contain your project.
 Anything you can deploy in Azure via an ARM template can be provisioned through DevTests Labs.
@@ -39,7 +39,6 @@ Check your knowledge
 - **Azure Boards**
 
 *Azure Boards is an agile project-management tool. It would not be used to automate a CI/CD process.*
-
 2. Which service could help you manage the VMs that your developers and testers need to ensure that your new app works across various operating systems?
 
 - **Azure DevTest Labs**
@@ -47,7 +46,6 @@ Check your knowledge
 - Azure Repos
 
 *Azure DevTest Labs is used to manage VMs for testing, including configuration, provisioning, and automatic de-provisioning.*
-
 3. Which service lacks features to assign individual developers tasks to work on?
 
 - Azure Boards
@@ -61,7 +59,7 @@ Check your knowledge
 
 There are two macro-categories of management tools: **visual** and **code-based** tools.
 
-### The Azure portal and Azure Modile app
+### The Azure portal and Azure Mobile app
 
 A user interface, you can access virtually every feature of Azure. The Azure portal provides a friendly, graphical UI to view all the services you're using, create new services, configure your services, and view reports.
 
@@ -87,7 +85,6 @@ By usign Azure Resource Manager (ARM) templates you can describe the resource yo
 - **The Azure CLI**
 
 *The Azure CLI enables you to use Bash to run one-off tasks on Azure.*
-
 2. You're a developer who needs to set up your first VM to host a process that runs nightly. Which of the following tools is your best choice?
 
 - ARM templates
@@ -96,7 +93,6 @@ By usign Azure Resource Manager (ARM) templates you can describe the resource yo
 - The Azure CLI
 
 *The Azure portal is a great place for newcomers to learn about Azure and set up their first resources.*
-
 3. What is the best infrastructure-as-code option for quickly and reliably setting up your entire cloud infrastructure declaratively?
 
 - **ARM templates**
@@ -148,7 +144,6 @@ Check your knowledge
 - **Azure Service Health**
 
 *Azure Advisor can alert you when new recommendations are available.*
-
 2. Which service provides official outage root cause analyses (RCAs) for Azure incidents?
 
 - Azure Advisor
@@ -156,7 +151,6 @@ Check your knowledge
 - **Azure Service Health**
 
 *Azure Service Health provides incident history and RCAs to share with your stakeholders.*
-
 3. Which service is a platform that powers Application Insights, monitoring for VMs, containers, and Kubernetes?
 
 - Azure Advisor

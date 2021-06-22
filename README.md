@@ -2,7 +2,7 @@
 
 Candidates *with non-technical* backgrounds who are interested in learning about the cloud. Candidates *with technical* backgrounds who are interested in getting more advanced certs in the future.
 
-Exam syllabus [here](exam-az-900-microsoft-azure-fundamentals-skills-measured.pdf)
+ExARMsyllabus [here](exam-az-900-microsoft-azure-fundamentals-skills-measured.pdf)
 
 ## What is Azure?
 
@@ -95,23 +95,21 @@ Further details on Azure services [here](1_AzureServices.md).
 - False
 - **True**
 
-_You can use a free Azure account or a Microsoft Learn sandbox to create resource_
-
+*You can use a free Azure account or a Microsoft Learn sandbox to create resource*
 2. What is meant by cloud computing?
 
 - **Delivery of computing services over the internet.**
 -Setting up your own datacenter
 -Using the internet
 
-_Cloud computing is the delivery of computing services over the internet, which is otherwise known as the cloud_
-
+*Cloud computing is the delivery of computing services over the internet, which is otherwise known as the cloud*
 3. What is not a reason to move to the cloud?
 
 - Faster innovation
 - **A limited pool of services**
 - Speech recognition and other cognitive services
 
-_The cloud offers a nearly limitless pool of raw compute, storage, and networking components to help you deliver innovative and novel user experiences quickly._
+*The cloud offers a nearly limitless pool of raw compute, storage, and networking components to help you deliver innovative and novel user experiences quickly.*
 </details>
 
 ## Azure fundamental concepts
@@ -163,16 +161,14 @@ The following illustration demonstrates the services that might run in each of t
 - Infrastructure-as-a-Service (IaaS)
 - Software-as-a-Service (SaaS)
 
-_NaaS isn't a cloud computing category._
-
+*NaaS isn't a cloud computing category.*
 2. Which of the following statements is true?
 
 - With Operating Expenses (OpEx), you are responsible for purchasing and maintaining your computing resources.
 - **With Operating Expenses (OpEx), you are only responsible for the computing resources that you use.**
 - With Capital Expenses (CapEx), you are only responsible for the computing resources that you use.
 
-_With Operating Expenses (OpEx), you are only responsible for the computing resources that you use._
-
+*With Operating Expenses (OpEx), you are only responsible for the computing resources that you use.*
 3. Which of the following options isn't a type of cloud computing?
 
 - **Distributed cloud**
@@ -180,8 +176,7 @@ _With Operating Expenses (OpEx), you are only responsible for the computing reso
 - Private cloud
 - Public cloud
 
-_A distributed cloud isn't a valid type of cloud computing._
-
+*A distributed cloud isn't a valid type of cloud computing.*
 4. Which of the following choices isn't a benefit of using cloud services?
 
 - Scalability
@@ -189,7 +184,7 @@ _A distributed cloud isn't a valid type of cloud computing._
 - High availability
 - **Geographic isolation**
 
-_You can choose to create resources in a single region; however, one of the primary advantages to cloud computing is geographic distribution._
+*You can choose to create resources in a single region; however, one of the primary advantages to cloud computing is geographic distribution.*
 </details>
 
 ## Azure architectural concepts
@@ -203,7 +198,7 @@ In this section we want to explain the following concepts:
 ### Azure subscriptions, management groups, and resources
 
 - **Resources**: Resources are instances of services that you create, like virtual machines, storage, or SQL databases.
-- **Resource groups**: Resources are combined into resource groups, which act as a logical container into which Azure resources like web apps, databases, and storage accounts are deployed and managed.
+- **Resource groups**: Resources are combined into resource groups, which act as a logical container into which Azure resources like web apps, databases, and storage accounts are deployed and managed. In other words, everything that is born together, gets managed together, and deprecates together, goes together in a resource group.
 - **Subscriptions**: A subscription groups together user accounts and the resources that have been created by those user accounts. For each subscription, there are limits or quotas on the amount of resources that you can create and use. Organizations can use subscriptions to manage costs and the resources that are created by users, teams, or projects.
 - **Management groups**: These groups help you manage access, policy, and compliance for multiple subscriptions. All subscriptions in a management group automatically inherit the conditions applied to the management group.
 
@@ -249,6 +244,14 @@ Further details about AZs [here](https://docs.microsoft.com/en-us/azure/availabi
 - Apply tags to resources to logically organize all the resources in your subscription.
 - Clarify your organization's billing by viewing costs for a group of resources that share the same tag.
 
+ARM check for users **authentication and authorization** permissions against Azure Active Directory to validate user's request.
+
+Then ARM enforces Azure [resource policy](#governance) controls. Azure resource policies specify the operations allowed for a specific resource. For example, an Azure resource policy can specify that users are only allowed to deploy a specific type of virtual machine.
+
+Next control is against [Azure subscription limits](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits). For example, each subscription has a limit of 980 resource groups per subscription. If a request is received to deploy an additional resource group when the limit has been reached, it's denied.
+
+Finally ARM checks if the request is within the financial commitment associated with the subscription. For example, if the request is to deploy a virtual machine, Azure Resource Manager verifies that the subscription has sufficient payment information.
+
 A **subscription** provides you with authenticated and authorized access to Azure products and services. It also allows you to provision resources. An account can have one subscription or multiple subscriptions that have different billing models and to which you apply different access-management policies. There are two types of subscription boundaries that you can use:
 
 - billing boundary
@@ -265,7 +268,7 @@ You might want to create additional subscriptions for resource and billing manag
 - All subscriptions and management groups are within a single hierarchy in each directory.
 
 <details>
-  <summary> 
+  <summary>
     Check your knowledge
  </summary>
 
@@ -276,7 +279,6 @@ You might want to create additional subscriptions for resource and billing manag
 - Resource groups
 
 *Management groups facilitate the hierarchical ordering of Azure resources into collections, at a level of scope above subscriptions. Distinct governance conditions can be applied to each management group, with Azure Policy and Azure role-based access controls, to manage Azure subscriptions effectively. The resources and subscriptions assigned to a management group automatically inherit the conditions applied to the management group.*
-
 2. Which of the following is a logical unit of Azure services that links to an Azure account?
 
 - **Azure subscription**
@@ -285,7 +287,6 @@ You might want to create additional subscriptions for resource and billing manag
 - Public cloud
 
 *An Azure subscription is a logical unit of Azure services that links to an Azure account.*
-
 3. Which of the following features doesn't apply to resource groups?
 
 - Resources can be in only one resource group.
@@ -293,7 +294,6 @@ You might want to create additional subscriptions for resource and billing manag
 - **Resource groups can be nested.**
 
 *It does not apply, as resource groups can't be nested.*
-
 4. Which of the following statements is a valid statement about an Azure subscription?
 
 - Using Azure doesn't require a subscription.
@@ -335,7 +335,7 @@ You've got multiple points to check and secure your applications.
 
 Many Azure services include built-in security features. **Azure Security Center** is a monitoring service that provides visibility of your *security posture* across all of your services, both on Azure and on-premises. The term security posture refers to cybersecurity policies and controls, as well as how well you can predict, prevent, and respond to security threats.
 
-**Secure score** is a measurement of an organization's security posture; it helps you to:
+[Secure score](https://docs.microsoft.com/en-us/azure/security-center/secure-score-security-controls) is a measurement of an organization's security posture; it helps you to:
 
 - Report on the current state of your organization's security posture.
 - Improve your security posture by providing discoverability, visibility, guidance, and control.
@@ -375,7 +375,6 @@ Check your knowledge
 - **Azure DDoS Protection**
 
 *DDoS Protection helps protect your Azure resources from DDoS attacks. A DDoS attack attempts to overwhelm and exhaust an application's resources, making the application slow or unresponsive to legitimate users.*
-
 2. What's the best way for Tailwind Traders to limit all outbound traffic from VMs to known hosts?
 
 - Configure Azure DDoS Protection to limit network access to trusted ports and hosts.
@@ -383,7 +382,6 @@ Check your knowledge
 - Ensure that all running applications communicate with only trusted ports and hosts.
 
 *Azure Firewall enables you to limit outbound HTTP/S traffic to a specified list of fully qualified domain names (FQDNs).*
-
 3. How can Tailwind Traders most easily implement a deny by default policy so that VMs can't connect to each other?
 
 - Allocate each VM on its own virtual network.
@@ -430,5 +428,24 @@ Azure Policy lets you to create your own custom policies or you can use a set of
 - Not allowed resource type
 
 Another governance related feature is Azure **Blueprint**. Blueprints are basically a set of templates that you can create that contain users in roles and policies. Every time you create a new subscription you can use one of them.
+A blueprint is a package or container for composing focus-specific sets of standards, patterns, and requirements related to the implementation of Azure cloud services, security, and design that can be reused to maintain consistency and compliance.
 
-## Pricing
+A policy is a default allow and explicit deny system focused on resource properties during deployment and for already existing resources. It supports cloud governance by validating that resources within a subscription adhere to requirements and standards.
+
+Including a policy in a blueprint enables the creation of the right pattern or design during assignment of the blueprint. The policy inclusion makes sure that only approved or expected changes can be made to the environment to protect ongoing compliance to the intent of the blueprint.
+
+A policy can be included as one of many artifacts in a blueprint definition. Blueprints also support using parameters with policies and initiatives.
+
+#### Five disciplines of Cloud Governance
+
+With any cloud platform, there are common [*governance disciplines*](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/govern/governance-disciplines) that help inform policies and align toolchains. These disciplines guide decisions about the proper level of automation and enforcement of corporate policy across cloud platforms.
+
+- **Cost Management**: Cost is a primary concern for cloud users. Develop policies for cost control for all cloud platforms.
+
+- **Security Baseline**: Security is a complex subject, unique to each company. Once security requirements are established, cloud governance policies and enforcement apply those requirements across network, data, and asset configurations.
+
+- **Identity Baseline**: Inconsistencies in the application of identity requirements can increase the risk of breach. The Identity Baseline discipline focuses ensuring that identity is consistently applied across cloud adoption efforts.
+
+- **Resource Consistency**: Cloud operations depend on consistent resource configuration. Through governance tooling, resources can be configured consistently to manage risks related to onboarding, drift, discoverability, and recovery.
+
+- **Deployment Acceleration**: Centralization, standardization, and consistency in approaches to deployment and configuration improve governance practices. When provided through cloud-based governance tooling, they create a cloud factor that can accelerate deployment activities.

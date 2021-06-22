@@ -11,7 +11,7 @@ We'll take a look at several of the core networking resources that are available
   - You can connect Azure resources to on-prem data center leveraging:
     - Point-to-site VPN
     - Site-to-site VPN
-    - Azure ExpressRoute: best approach for environments requiring greater bandwidth and higher level of security.
+    - Azure ExpressRoute: when it is required greater bandwidth and higher level of security.
 - Route (Route tables and BGP) and filter (Network security groups and virtual appliances) traffic
 - Connect different networks - peering
 
@@ -27,8 +27,7 @@ VPNs use an encrypted tunnel within another network. They're typically deployed 
 
 You can deploy only one VPN gateway in each virtual network, but you can use one gateway to connect to multiple locations.
 
-The *capabilities* of your VPN gateway are determined by the SKU or size that you deploy. This table shows the main capabilities of each available SKU.
-> A Basic VPN gateway should only be used for Dev/Test workloads. In addition, it's unsupported to migrate from Basic to the VpnGW1/2/3/Az SKUs at a later time without having to remove the gateway and redeploy.
+The *capabilities* of your VPN gateway are determined by the SKU or size that you deploy. This table shows the main capabilities of each available SKU. **A Basic VPN gateway should only be used for Dev/Test workloads**. In addition, it's unsupported to migrate from Basic to the VpnGW1/2/3/Az SKUs at a later time without having to remove the gateway and redeploy.
 
 ### Deploy VPN gateway
 
@@ -64,5 +63,16 @@ ExpressRoute supports three models that you can use to connect your on-premises 
 - CloudExchange colocation
 - Point-to-point Ethernet connection
 - Any-to-any connection
+
+You can increase/decrease the ExpressRoute circuit bandwidth (on a best effort basis) without having to tear down your connections. The supported bandwidths are listed as followed.
+
+- 50 Mbps
+- 100 Mbps
+- 200 Mbps
+- 500 Mbps
+- 1 Gbps
+- 2 Gbps
+- 5 Gbps
+- 10 Gbps
 
 Official docs [here](https://docs.microsoft.com/en-us/azure/networking/fundamentals/networking-overview).

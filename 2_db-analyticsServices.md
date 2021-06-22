@@ -54,7 +54,6 @@ Microsoft Azure supports a broad range of technologies and services to provide b
 - Azure Database for PostgreSQL
 
 *Azure Cosmos DB supports SQL, MongoDB, Cassandra, Tables, and Gremlin APIs.*
-
 2. Tailwind Traders uses the LAMP stack for several of its websites. Which option would be ideal for migration?
 
 - Azure Cosmos DB
@@ -62,7 +61,6 @@ Microsoft Azure supports a broad range of technologies and services to provide b
 - Azure Database for PostgreSQL
 
 *Azure Database for MySQL is the logical choice for existing LAMP stack applications.*
-
 3. Tailwind Traders has millions of log entries that it wants to analyze. Which option would be ideal for analysis?
 
 - Azure Cosmos DB

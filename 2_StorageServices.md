@@ -20,7 +20,6 @@
 - Use a Shared Access Signature (SAS) token to restrict access to the image.
 
 *You must create an Azure Storage account before you can use any Azure Storage features.*
-
 2. Which Azure Storage option is better for storing data for backup and restore, disaster recovery, and archiving?
 
 - Azure Files Storage

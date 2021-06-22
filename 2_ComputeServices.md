@@ -11,7 +11,7 @@ Azure compute provides on-demand pay-as-you-go compunting resources. Some of the
   - Containter Instances and AKS are Azure compute resources to deploy and manage containers.
 - [Azure App Service](https://docs.microsoft.com/en-us/azure/app-service/)
   - A PaaS offering which allows you to quickly build and scale enterprise-grade web, mobile, and API apps running on any platform.
-  - You pay for the resources your app uses based on the App Service plan you choose
+  - You [pay](https://docs.microsoft.com/en-us/azure/app-service/overview-hosting-plans) for the resources your app uses based on the App Service plan you choose
 - [Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/) and Logic Apps
   - Serverless architecture
 - Azure Virtual Desktop
@@ -28,7 +28,6 @@ Azure compute provides on-demand pay-as-you-go compunting resources. Some of the
 - Virtual machine availability zones
 
 *Virtual machine scale sets let you deploy and manage a set of identical virtual machines.*
-
 2. Which of the following services should be used when the primary concern is to perform work in response to an event (often via a REST command) that needs a response in a few seconds?
 
 - **Azure Functions**
@@ -36,7 +35,6 @@ Azure compute provides on-demand pay-as-you-go compunting resources. Some of the
 - Azure Container Instances
 
 *Azure Functions is used when you need to perform work in response to an event (often via a REST request), timer, or message from another Azure service, and when that work can be completed quickly, within seconds or less.*
-
 3. Your company has a team of remote workers that need to use Windows-based software to develop your company's applications, but your team members are using various operating systems like MacOS, Linux, and Windows. Which Azure compute service would help resolve this scenario?
 
 - Azure App Service
